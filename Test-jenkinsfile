@@ -20,6 +20,6 @@ stage('upload artifact'){
     strps{
         sh 'curl -uadmin:AP9zz3w2porBznMWtvBy9Pw9eM4 -T\
          *.tgz\
-          "http://100.26.239.241:8081/artifactory/utc-nodejs/utc-app-${BUILD_ID}.TGZ"'
+          "http://100.26.239.241:8081/artifactory/utc-nodejs/utc-app-${BUILD_ID}.tgz"'
     }
 }
